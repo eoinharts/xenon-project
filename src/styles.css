@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; /* Remove dots default comes with weird dots */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-start; /* Align items to the left was very central on page */
+}
+
+nav li {
+  margin-right: 15px; /* Add spacing between links */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links can reimplement if u want */
+  color: black; /* Set default link color  can actually click this box and change if u like*/
+}
+
+nav a:hover {
+  color: purple; /* Optional hover effect for links can change */
+}
+
+footer {
+  background-color: gray;
+  text-align: center;
+  margin-top: auto;
+  padding: 8px;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialmedia img {
+  width: 20px;
+  height: 20px;
+}
+
+.copyright {
+  font-size: x-small;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar-right {
+  margin-left: auto;
+  margin-right: 10px;
+}
